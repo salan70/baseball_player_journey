@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "524679370792",
+    "project_id": "baseball-player-journey-dev",
+    "storage_bucket": "baseball-player-journey-dev.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:524679370792:android:a079fe99264628badd3d1d",
+        "android_client_info": {
+          "package_name": "com.toda.baseball_player_journey.dev"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClvk4JXSbvIo1Rn8qm2oup89r2nyprXf8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

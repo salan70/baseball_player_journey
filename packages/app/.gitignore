@@ -41,3 +41,8 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Flavor related files.
+**/android/app/google-services.json
+**/ios/Flutter/Dart-Defines.xcconfig
+**/ios/Runner/GoogleService-Info.plist
