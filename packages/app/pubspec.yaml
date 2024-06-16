@@ -1,7 +1,7 @@
 name: baseball_player_journey
 description: "A new Flutter project."
 publish_to: 'none'
-version: 0.1.0
+version: 1.0.0
 
 environment:
   sdk: '>=3.2.3 <4.0.0'
@@ -9,6 +9,15 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+
+  # Other packages in the project.
+  model:
+    path: ../model
+  common:
+    path: ../common
+
+  # State management.
+  flutter_riverpod: ^2.4.3
 
 dev_dependencies:
   flutter_test:
