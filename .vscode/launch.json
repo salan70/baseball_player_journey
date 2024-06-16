@@ -3,7 +3,7 @@
     "configurations": [
         {
             "name": "Debug dev",
-            "program": "package/app/lib/main.dart",
+            "program": "packages/app/lib/main.dart",
             "request": "launch",
             "type": "dart",
             "flutterMode": "debug",
@@ -13,7 +13,7 @@
         },
         {
             "name": "Debug prod",
-            "program": "package/app/lib/main.dart",
+            "program": "packages/app/lib/main.dart",
             "request": "launch",
             "type": "dart",
             "flutterMode": "debug",
