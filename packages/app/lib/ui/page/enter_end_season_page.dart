@@ -88,7 +88,7 @@ class EnterEndSeasonPage extends StatelessWidget {
                 onPressed: () {
                   Navigator.push(
                     context,
-                    MaterialPageRoute(
+                    MaterialPageRoute<void>(
                       builder: (context) => const PlayTopPage(),
                     ),
                   );

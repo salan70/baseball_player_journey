@@ -29,7 +29,7 @@ dependencies:
   flutter_riverpod: ^2.4.3
 
   # Static analysis.
-  pedantic_mono: ^1.20.1
+  pedantic_mono: ^1.27.0
   riverpod_lint: ^2.3.7
 
 dev_dependencies:
@@ -43,4 +43,4 @@ dev_dependencies:
   riverpod_generator: ^2.3.9
 
   # Static analysis.
-  flutter_lints: ^2.0.0
+  flutter_lints: ^3.0.0
