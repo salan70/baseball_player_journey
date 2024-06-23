@@ -29,8 +29,12 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: Scaffold(
+    return MaterialApp(
+      themeMode: ThemeMode.light,
+      theme: ThemeData(
+        fontFamily: 'MochiyPopOne',
+      ),
+      home: const Scaffold(
         body: Center(
           child: TopPage(),
         ),

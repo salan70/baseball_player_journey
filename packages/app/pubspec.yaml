@@ -26,3 +26,9 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+
+  fonts:
+   - family: MochiyPopOne
+     fonts:
+       - asset: assets/fonts/Mochiy Pop One/MochiyPopOne-Regular.ttf
+         weight: 400
