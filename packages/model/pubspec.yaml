@@ -11,12 +11,20 @@ dependencies:
   flutter:
     sdk: flutter
 
+  # Code generation.
+  riverpod_annotation: ^2.2.0
+
+  # State management.
+  flutter_riverpod: ^2.4.3
+
   # Static analysis.
   pedantic_mono: ^1.27.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^2.0.0
+
+  # Static analysis.
+  flutter_lints: ^3.0.0
 
 flutter:

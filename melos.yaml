@@ -10,6 +10,29 @@ command:
       post: |
         melos exec --flutter -- "fvm flutter clean"
         melos exec --flutter --file-exists="ios/Podfile.lock" -- "cd ios && rm Podfile.lock"
+  bootstrap:
+    environment:
+      sdk: '>=3.2.3 <4.0.0'
+    dependencies:
+      # Code generation.
+      riverpod_annotation: ^2.2.0
+
+      # State management.
+      flutter_riverpod: ^2.4.3
+
+      # Static analysis.
+      pedantic_mono: ^1.27.0
+    
+    dev_dependencies:
+      # Static analysis.
+      flutter_lints: ^3.0.0
+
+      # Code generation.
+      build_runner: ^2.4.7
+      freezed: ^2.4.5
+      json_serializable: ^6.7.1
+      riverpod_generator: ^2.3.9
+
 
 scripts:
   clean:
