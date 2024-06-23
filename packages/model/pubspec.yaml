@@ -11,6 +11,9 @@ dependencies:
   flutter:
     sdk: flutter
 
+  # Static analysis.
+  pedantic_mono: ^1.27.0
+
 dev_dependencies:
   flutter_test:
     sdk: flutter

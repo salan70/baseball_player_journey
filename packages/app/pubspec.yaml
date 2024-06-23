@@ -19,6 +19,9 @@ dependencies:
   # State management.
   flutter_riverpod: ^2.4.3
 
+  # Static analysis.
+  pedantic_mono: ^1.27.0
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
