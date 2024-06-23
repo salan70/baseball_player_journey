@@ -33,7 +33,7 @@ jobs:
       - name: Create dot env file
         shell: bash
         run: |
-          touch package/app/.env
+          touch packages/app/.env
 
       - name: Setup Flutter
         id: setup-flutter
@@ -95,7 +95,7 @@ jobs:
       - name: Create dot env file
         shell: bash
         run: |
-          touch package/app/.env
+          touch packages/app/.env
 
       - name: Setup Flutter
         id: setup-flutter
