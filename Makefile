@@ -19,3 +19,7 @@ analytics_debug_view_end:
 melos_setup:
 	melos clean
 	melos bootstrap
+
+.PHONY: generate
+generate:
+	melos gen
