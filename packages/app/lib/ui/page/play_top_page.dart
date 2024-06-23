@@ -1,8 +1,9 @@
+import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 
-import 'enter_end_season_page.dart';
-import 'enter_game_stats_page.dart';
+import '../../core/router/app_router.dart';
 
+@RoutePage()
 class PlayTopPage extends StatelessWidget {
   const PlayTopPage({super.key});
 
@@ -16,31 +17,21 @@ class PlayTopPage extends StatelessWidget {
             const Text('PlayTopPage'),
             ElevatedButton(
               onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute<void>(
-                    builder: (context) => const EnterGameStatsPage(),
-                  ),
-                );
+                context.pushRoute(const EnterGameStatsRoute());
               },
               child: const Text('試合を始める'),
             ),
             const SizedBox(height: 20),
             ElevatedButton(
               onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute<void>(
-                    builder: (context) => const EnterEndSeasonPage(),
-                  ),
-                );
+                context.pushRoute(const EnterEndSeasonRoute());
               },
               child: const Text('シーズンを終了する'),
             ),
             const SizedBox(height: 20),
             ElevatedButton(
               onPressed: () {
-                Navigator.popUntil(context, ModalRoute.withName('/'));
+                context.router.popUntilRoot();
               },
               child: const Text('戻る'),
             ),

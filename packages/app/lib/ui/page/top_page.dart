@@ -1,7 +1,9 @@
+import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 
-import 'enter_profile_page.dart';
+import '../../core/router/app_router.dart';
 
+@RoutePage()
 class TopPage extends StatelessWidget {
   const TopPage({super.key});
 
@@ -15,12 +17,7 @@ class TopPage extends StatelessWidget {
             const Text('TopPage'),
             ElevatedButton(
               onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute<void>(
-                    builder: (context) => const EnterProfilePage(),
-                  ),
-                );
+                context.pushRoute(const PlayTopRoute());
               },
               child: const Text('プレイする'),
             ),

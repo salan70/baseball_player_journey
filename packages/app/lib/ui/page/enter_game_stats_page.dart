@@ -1,7 +1,9 @@
+import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 
 import 'play_top_page.dart';
 
+@RoutePage()
 class EnterGameStatsPage extends StatelessWidget {
   const EnterGameStatsPage({super.key});
 
