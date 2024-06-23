@@ -1,6 +1,7 @@
-import 'package:baseball_player_journey/ui/page/enter_end_season_page.dart';
-import 'package:baseball_player_journey/ui/page/enter_game_stats_page.dart';
 import 'package:flutter/material.dart';
+
+import 'enter_end_season_page.dart';
+import 'enter_game_stats_page.dart';
 
 class PlayTopPage extends StatelessWidget {
   const PlayTopPage({super.key});
@@ -17,7 +18,7 @@ class PlayTopPage extends StatelessWidget {
               onPressed: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(
+                  MaterialPageRoute<void>(
                     builder: (context) => const EnterGameStatsPage(),
                   ),
                 );
@@ -29,7 +30,7 @@ class PlayTopPage extends StatelessWidget {
               onPressed: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(
+                  MaterialPageRoute<void>(
                     builder: (context) => const EnterEndSeasonPage(),
                   ),
                 );

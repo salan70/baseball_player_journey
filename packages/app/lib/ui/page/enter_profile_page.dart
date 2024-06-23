@@ -1,5 +1,6 @@
-import 'package:baseball_player_journey/ui/page/play_top_page.dart';
 import 'package:flutter/material.dart';
+
+import 'play_top_page.dart';
 
 // ### 入力
 
@@ -159,7 +160,7 @@ class EnterProfilePage extends StatelessWidget {
                 onPressed: () {
                   Navigator.push(
                     context,
-                    MaterialPageRoute(
+                    MaterialPageRoute<void>(
                       builder: (context) => const PlayTopPage(),
                     ),
                   );

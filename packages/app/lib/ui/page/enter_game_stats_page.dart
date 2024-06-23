@@ -32,7 +32,7 @@ class EnterGameStatsPage extends StatelessWidget {
                   hintText: '第1打席',
                 ),
               ),
-              // TODO: 他の打席の入力フォームを追加する。
+              // TODO(me): 他の打席の入力フォームを追加する。
               const SizedBox(height: 40),
               const Text('その他'),
               const TextField(
@@ -65,7 +65,7 @@ class EnterGameStatsPage extends StatelessWidget {
                 onPressed: () {
                   Navigator.push(
                     context,
-                    MaterialPageRoute(
+                    MaterialPageRoute<void>(
                       builder: (context) => const PlayTopPage(),
                     ),
                   );
