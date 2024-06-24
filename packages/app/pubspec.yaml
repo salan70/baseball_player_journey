@@ -16,7 +16,11 @@ dependencies:
   common:
     path: ../common
 
+  # Navigation.
+  auto_route: ^8.2.0
+
   # Code generation.
+  auto_route_generator: ^8.0.0
   riverpod_annotation: ^2.2.0
 
   # State management.
@@ -24,12 +28,14 @@ dependencies:
 
   # Static analysis.
   pedantic_mono: ^1.27.0
+  riverpod_lint: ^2.3.7
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
   # Static analysis.
+  custom_lint: ^0.6.4
   flutter_lints: ^3.0.0
 
   # Code generation.

@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'ui/page/top_page.dart';
+import 'core/router/app_router.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -24,20 +24,16 @@ Future<void> main() async {
   });
 }
 
-class MainApp extends StatelessWidget {
+class MainApp extends ConsumerWidget {
   const MainApp({super.key});
 
   @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
+  Widget build(BuildContext context, WidgetRef ref) {
+    return MaterialApp.router(
       themeMode: ThemeMode.light,
+      routerConfig: ref.watch(appRouterProvider).config(),
       theme: ThemeData(
         fontFamily: 'MochiyPopOne',
-      ),
-      home: const Scaffold(
-        body: Center(
-          child: TopPage(),
-        ),
       ),
     );
   }

@@ -1,20 +1,9 @@
+import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 
 import 'play_top_page.dart';
 
-// ### 入力
-
-// - 人物情報
-//     - 名前、生年月日、身長、体重、出身
-// - 野球情報
-//     - ポジション、利き腕、打席、経歴、入団経緯、背番号、契約金、年俸
-// - シーズン情報
-//     - チーム名、国、試合数、開始年
-// - 能力
-//     - コンタクト、パワー、ビジョン、スピード、肩、守備
-// - その他
-//     - メモ
-
+@RoutePage()
 class EnterProfilePage extends StatelessWidget {
   const EnterProfilePage({super.key});
 

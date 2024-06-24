@@ -18,7 +18,9 @@ dependencies:
   flutter_riverpod: ^2.4.3
 
   # Static analysis.
+  custom_lint: ^0.6.4
   pedantic_mono: ^1.27.0
+  riverpod_lint: ^2.3.7
 
 dev_dependencies:
   flutter_test:

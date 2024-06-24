@@ -1,19 +1,9 @@
+import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 
 import 'play_top_page.dart';
 
-// - 各成績のリーグ内順位
-//     - TOP3の場合入力させる
-// - 獲得タイトル
-// - チームのリーグ順位
-// - チームのポストシーズン成績
-// - 来シーズンの年俸
-// - 能力の更新
-// - 背番号の更新
-// - 移籍するかどうか
-//     - 移籍種類
-//     - 移籍先リーグ、チーム
-
+@RoutePage()
 class EnterEndSeasonPage extends StatelessWidget {
   const EnterEndSeasonPage({super.key});
 
