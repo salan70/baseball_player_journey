@@ -13,6 +13,7 @@ dependencies:
 
   # Code generation.
   riverpod_annotation: ^2.2.0
+  freezed_annotation: ^2.4.1
 
   # State management.
   flutter_riverpod: ^2.4.3
@@ -22,9 +23,15 @@ dependencies:
   pedantic_mono: ^1.27.0
   riverpod_lint: ^2.3.7
 
+  # Data manipulation.
+  freezed: ^2.5.2
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
+  # Code generation.
+  build_runner: ^2.4.7
 
   # Static analysis.
   flutter_lints: ^3.0.0
